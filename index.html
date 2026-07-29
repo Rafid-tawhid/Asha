@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
     />
-    <title>☕ Ratri · Coffee with me?</title>
+    <title>💫 Ishu · Will you go on a date with me?</title>
     <style>
       * {
         margin: 0;
@@ -24,10 +24,10 @@
         min-height: 100vh;
         background: linear-gradient(
           145deg,
-          #1a120b 0%,
-          #2d1a0f 30%,
-          #3d2418 60%,
-          #2d1a0f 100%
+          #0a0a1a 0%,
+          #1a0b1f 30%,
+          #2e1a2f 60%,
+          #1a0b1f 100%
         );
         display: flex;
         justify-content: center;
@@ -38,7 +38,7 @@
         overflow-x: hidden;
       }
 
-      /* Floating coffee beans / hearts background */
+      /* Floating hearts background */
       .floating-hearts {
         position: fixed;
         top: 0;
@@ -82,7 +82,7 @@
         border-radius: 50%;
         background: radial-gradient(
           circle,
-          rgba(255, 215, 200, 0.8),
+          rgba(255, 215, 245, 0.8),
           transparent
         );
         animation: sparkleFade 1s ease-out forwards;
@@ -106,17 +106,17 @@
         z-index: 10;
         max-width: 650px;
         width: 100%;
-        background: rgba(45, 30, 20, 0.75);
+        background: rgba(40, 22, 44, 0.7);
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         border-radius: 60px;
         padding: 2.8rem 2rem 2.8rem;
         box-shadow:
           0 30px 80px rgba(0, 0, 0, 0.7),
-          0 0 0 1px rgba(255, 215, 180, 0.15),
-          0 0 60px rgba(180, 120, 70, 0.2),
-          inset 0 0 80px rgba(160, 100, 50, 0.05);
-        border: 1px solid rgba(255, 215, 180, 0.15);
+          0 0 0 1px rgba(255, 215, 255, 0.15),
+          0 0 60px rgba(200, 130, 200, 0.2),
+          inset 0 0 80px rgba(200, 100, 180, 0.05);
+        border: 1px solid rgba(255, 220, 255, 0.15);
         text-align: center;
         animation: cardGlow 3s infinite alternate;
       }
@@ -125,18 +125,18 @@
         0% {
           box-shadow:
             0 30px 80px rgba(0, 0, 0, 0.7),
-            0 0 0 1px rgba(255, 215, 180, 0.15),
-            0 0 40px rgba(180, 120, 70, 0.2);
+            0 0 0 1px rgba(255, 215, 255, 0.15),
+            0 0 40px rgba(200, 130, 200, 0.2);
         }
         100% {
           box-shadow:
             0 30px 80px rgba(0, 0, 0, 0.7),
-            0 0 0 1px rgba(255, 215, 180, 0.25),
-            0 0 80px rgba(180, 120, 70, 0.4);
+            0 0 0 1px rgba(255, 215, 255, 0.25),
+            0 0 80px rgba(200, 130, 200, 0.4);
         }
       }
 
-      /* Profile image */
+      /* Profile image placeholder */
       .profile-section {
         margin-bottom: 20px;
         position: relative;
@@ -147,13 +147,13 @@
         height: 120px;
         border-radius: 50%;
         margin: 0 auto 10px;
-        background: linear-gradient(135deg, #b88a6b, #8c6a4f);
+        background: linear-gradient(135deg, #d88fc8, #b84a9b);
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 60px;
-        box-shadow: 0 0 30px rgba(180, 120, 70, 0.3);
-        border: 3px solid rgba(255, 215, 180, 0.3);
+        box-shadow: 0 0 30px rgba(200, 100, 180, 0.3);
+        border: 3px solid rgba(255, 215, 255, 0.3);
         animation: profilePulse 2s infinite alternate;
         position: relative;
         overflow: hidden;
@@ -164,7 +164,7 @@
         position: absolute;
         inset: -2px;
         border-radius: 50%;
-        background: linear-gradient(135deg, #d4a373, #f5cba0, #d4a373);
+        background: linear-gradient(135deg, #ff6bcb, #ffd700, #ff6bcb);
         background-size: 300% 300%;
         animation: gradientRotate 4s ease infinite;
         z-index: -1;
@@ -200,14 +200,14 @@
       .card h1 {
         font-size: 2.6rem;
         font-weight: 700;
-        background: linear-gradient(135deg, #f5e6d3, #f0d5b8, #e8c4a0, #f0d5b8);
+        background: linear-gradient(135deg, #ffe5f9, #ffc1f0, #f9b0e0, #ffc1f0);
         background-size: 300% 300%;
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         animation: gradientShift 4s ease infinite;
         letter-spacing: -0.5px;
-        text-shadow: 0 0 40px rgba(215, 180, 140, 0.2);
+        text-shadow: 0 0 40px rgba(255, 180, 240, 0.2);
         margin-bottom: 0.25rem;
       }
 
@@ -226,7 +226,7 @@
       .card .sub {
         font-size: 1.8rem;
         font-weight: 300;
-        color: #f0dcc8;
+        color: #fad6f0;
         margin-bottom: 1.5rem;
         letter-spacing: 2px;
         opacity: 0.9;
@@ -234,14 +234,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        text-shadow: 0 0 20px rgba(215, 180, 140, 0.15);
+        text-shadow: 0 0 20px rgba(255, 200, 240, 0.15);
       }
 
       .typing-cursor {
         display: inline-block;
         width: 3px;
         height: 1.8rem;
-        background: #f0d5b8;
+        background: #ffc1f0;
         margin-left: 4px;
         animation: blink 0.8s infinite;
       }
@@ -301,28 +301,28 @@
       }
 
       .btn-yes {
-        background: linear-gradient(145deg, #8c6a4f, #6d4f3a);
-        border-color: #d4a373;
-        box-shadow: 0 8px 30px rgba(140, 100, 70, 0.5);
-        color: #fff4ee;
+        background: linear-gradient(145deg, #b84a9b, #9f3b86);
+        border-color: #f7b0e6;
+        box-shadow: 0 8px 30px rgba(180, 70, 160, 0.5);
+        color: #fff4fe;
         animation: yesGlow 2s infinite alternate;
       }
 
       @keyframes yesGlow {
         0% {
-          box-shadow: 0 8px 30px rgba(140, 100, 70, 0.5);
+          box-shadow: 0 8px 30px rgba(180, 70, 160, 0.5);
         }
         100% {
           box-shadow:
-            0 8px 50px rgba(180, 130, 80, 0.8),
-            0 0 80px rgba(180, 130, 80, 0.2);
+            0 8px 50px rgba(200, 100, 180, 0.8),
+            0 0 80px rgba(200, 100, 180, 0.2);
         }
       }
 
       .btn-yes:hover {
         transform: scale(1.08) translateY(-3px);
-        background: linear-gradient(145deg, #a07a5a, #7a5a40);
-        box-shadow: 0 12px 45px rgba(180, 130, 80, 0.7);
+        background: linear-gradient(145deg, #cc5aaf, #b04196);
+        box-shadow: 0 12px 45px rgba(200, 80, 180, 0.7);
       }
 
       .btn-yes:active {
@@ -330,10 +330,10 @@
       }
 
       .btn-no {
-        background: rgba(60, 45, 35, 0.6);
+        background: rgba(60, 40, 60, 0.6);
         backdrop-filter: blur(8px);
-        border: 1px solid rgba(215, 180, 140, 0.2);
-        color: #f0dcc8;
+        border: 1px solid rgba(255, 150, 200, 0.2);
+        color: #f2d0ec;
         animation: floatNo 2s infinite alternate ease-in-out;
         transform-origin: center;
         cursor: default;
@@ -360,19 +360,19 @@
 
       .btn-no:hover {
         animation: floatNo 0.4s infinite alternate ease-in-out;
-        background: rgba(80, 55, 45, 0.7);
+        background: rgba(80, 50, 75, 0.7);
       }
 
       /* Picker wrapper */
       .picker-wrapper {
         margin-top: 30px;
         padding: 30px 25px 25px;
-        background: rgba(30, 20, 15, 0.6);
+        background: rgba(20, 10, 22, 0.6);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         border-radius: 48px;
-        border: 1px solid rgba(215, 180, 140, 0.12);
-        box-shadow: inset 0 0 60px rgba(140, 100, 70, 0.15);
+        border: 1px solid rgba(255, 200, 240, 0.12);
+        box-shadow: inset 0 0 60px rgba(150, 70, 150, 0.15);
         display: none;
         flex-direction: column;
         gap: 25px;
@@ -405,7 +405,7 @@
       .picker-row label {
         font-size: 1.1rem;
         font-weight: 400;
-        color: #f0dcc8;
+        color: #f0cee8;
         letter-spacing: 1px;
         text-align: left;
         margin-left: 8px;
@@ -414,13 +414,13 @@
 
       .picker-row input,
       .picker-row select {
-        background: rgba(30, 20, 15, 0.7);
+        background: rgba(20, 10, 22, 0.7);
         backdrop-filter: blur(8px);
-        border: 1px solid rgba(215, 180, 140, 0.2);
+        border: 1px solid rgba(255, 200, 240, 0.2);
         border-radius: 60px;
         padding: 18px 24px;
         font-size: 1.2rem;
-        color: #f5ede6;
+        color: #f7e4f2;
         outline: none;
         transition: all 0.3s ease;
         width: 100%;
@@ -432,39 +432,39 @@
 
       .picker-row input:focus,
       .picker-row select:focus {
-        border-color: #d4a373;
+        border-color: #d88fc8;
         box-shadow:
-          0 0 0 4px rgba(180, 130, 80, 0.2),
+          0 0 0 4px rgba(200, 120, 190, 0.2),
           0 4px 20px rgba(0, 0, 0, 0.3);
         transform: scale(1.02);
       }
 
       .picker-row input[type="date"]::-webkit-calendar-picker-indicator,
       .picker-row input[type="time"]::-webkit-calendar-picker-indicator {
-        filter: invert(0.8) sepia(0.3) hue-rotate(10deg) brightness(1.2);
+        filter: invert(0.8) sepia(0.3) hue-rotate(280deg) brightness(1.2);
         cursor: pointer;
       }
 
       .picker-row select option {
-        background: #2d1f15;
-        color: #f0dcc8;
+        background: #2a1b2a;
+        color: #f0d8ec;
       }
 
       .btn-submit {
-        background: linear-gradient(135deg, #8c6a4f, #6d4f3a);
+        background: linear-gradient(135deg, #b44e9b, #8f3b7a);
         border: none;
         border-radius: 60px;
         padding: 20px 28px;
         font-size: 1.6rem;
         font-weight: 600;
-        color: #fff4ee;
-        box-shadow: 0 10px 35px rgba(140, 100, 70, 0.5);
+        color: #fff4fe;
+        box-shadow: 0 10px 35px rgba(160, 60, 140, 0.5);
         margin-top: 5px;
         transition: all 0.3s ease;
         letter-spacing: 2px;
         width: 100%;
         cursor: pointer;
-        border: 1px solid rgba(215, 180, 140, 0.2);
+        border: 1px solid rgba(255, 200, 240, 0.2);
         position: relative;
         overflow: hidden;
       }
@@ -490,9 +490,9 @@
       }
 
       .btn-submit:hover {
-        background: linear-gradient(135deg, #a07a5a, #7a5a40);
+        background: linear-gradient(135deg, #cc5daf, #a5448a);
         transform: scale(1.03);
-        box-shadow: 0 12px 45px rgba(180, 130, 80, 0.7);
+        box-shadow: 0 12px 45px rgba(190, 70, 170, 0.7);
       }
 
       .btn-submit:active {
@@ -504,7 +504,7 @@
         transform: scale(0.98);
       }
 
-      /* Thank You Overlay */
+      /* Thank You Animation - BIG */
       .thankyou-overlay {
         position: fixed;
         top: 0;
@@ -577,7 +577,7 @@
       .thankyou-content h2 {
         font-size: 4rem;
         font-weight: 700;
-        background: linear-gradient(135deg, #f5e6d3, #f0d5b8, #e8c4a0, #f0d5b8);
+        background: linear-gradient(135deg, #ffe5f9, #ffc1f0, #f9b0e0, #ffc1f0);
         background-size: 300% 300%;
         -webkit-background-clip: text;
         background-clip: text;
@@ -588,13 +588,13 @@
 
       .thankyou-content p {
         font-size: 2rem;
-        color: #f0dcc8;
+        color: #fad6f0;
         margin: 10px 0;
       }
 
       .thankyou-content .sub-message {
         font-size: 1.3rem;
-        color: #d4a373;
+        color: #d88fc8;
         opacity: 0.8;
       }
 
@@ -637,9 +637,9 @@
       .countdown-timer {
         margin-top: 15px;
         padding: 15px;
-        background: rgba(30, 20, 15, 0.5);
+        background: rgba(20, 10, 22, 0.5);
         border-radius: 30px;
-        border: 1px solid rgba(215, 180, 140, 0.1);
+        border: 1px solid rgba(255, 200, 240, 0.1);
         display: none;
       }
 
@@ -653,7 +653,7 @@
         justify-content: center;
         gap: 15px;
         font-size: 1.2rem;
-        color: #f0dcc8;
+        color: #f0cee8;
       }
 
       .countdown-timer .time-unit {
@@ -665,28 +665,8 @@
       .countdown-timer .time-unit .number {
         font-size: 2.5rem;
         font-weight: 700;
-        color: #f0d5b8;
-        text-shadow: 0 0 20px rgba(215, 180, 140, 0.3);
-      }
-
-      .thankyou-message {
-        font-size: 1.2rem;
-        color: #f0dcc8;
-        padding: 10px;
-        display: none;
-      }
-
-      .thankyou-message.visible {
-        display: block;
-        animation: fadeSlide 0.5s ease;
-      }
-
-      .heart-decoration {
-        font-size: 1.3rem;
-        color: #d4a373;
-        letter-spacing: 6px;
-        margin-top: 8px;
-        opacity: 0.7;
+        color: #ffc1f0;
+        text-shadow: 0 0 20px rgba(255, 200, 240, 0.3);
       }
 
       /* Mobile responsiveness */
@@ -695,44 +675,55 @@
           padding: 1.8rem 1.2rem;
           border-radius: 40px;
         }
+
         .card h1 {
           font-size: 2rem;
         }
+
         .card .sub {
           font-size: 1.3rem;
           min-height: 50px;
         }
+
         .btn {
           padding: 14px 28px;
           font-size: 1.3rem;
           min-width: 100px;
         }
+
         .button-group {
           gap: 15px;
         }
+
         .profile-image {
           width: 90px;
           height: 90px;
           font-size: 45px;
         }
+
         .picker-row input,
         .picker-row select {
           padding: 14px 18px;
           font-size: 1rem;
         }
+
         .btn-submit {
           font-size: 1.3rem;
           padding: 16px 20px;
         }
+
         .thankyou-content h2 {
           font-size: 2.5rem;
         }
+
         .thankyou-content .big-emoji {
           font-size: 5rem;
         }
+
         .thankyou-content p {
           font-size: 1.3rem;
         }
+
         .countdown-timer .time-unit .number {
           font-size: 1.8rem;
         }
@@ -742,53 +733,61 @@
         .card h1 {
           font-size: 1.6rem;
         }
+
         .card .sub {
           font-size: 1.1rem;
         }
+
         .btn {
           padding: 12px 20px;
           font-size: 1.1rem;
           min-width: 80px;
         }
+
         .profile-image {
           width: 70px;
           height: 70px;
           font-size: 35px;
         }
+
         .thankyou-content h2 {
           font-size: 2rem;
         }
       }
 
+      /* Scrollbar styling */
       ::-webkit-scrollbar {
         width: 8px;
       }
+
       ::-webkit-scrollbar-track {
-        background: #1a120b;
+        background: #1a0b1f;
       }
+
       ::-webkit-scrollbar-thumb {
-        background: #8c6a4f;
+        background: #b84a9b;
         border-radius: 10px;
       }
+
       ::-webkit-scrollbar-thumb:hover {
-        background: #d4a373;
+        background: #d88fc8;
       }
     </style>
   </head>
   <body>
-    <!-- Floating particles -->
+    <!-- Floating hearts background -->
     <div class="floating-hearts" id="heartsContainer"></div>
 
-    <!-- Confetti -->
+    <!-- Confetti container -->
     <div class="confetti-container" id="confettiContainer"></div>
 
     <!-- Thank You Overlay -->
     <div class="thankyou-overlay" id="thankyouOverlay">
       <div class="thankyou-content">
-        <span class="big-emoji">☕</span>
-        <h2>THANK YOU, RATRI! ❤️</h2>
-        <p>Can't wait to have coffee with you! ✨</p>
-        <div class="sub-message">☕ Sending you the details now... ✨</div>
+        <span class="big-emoji">🥰</span>
+        <h2>THANK YOU, ISHU! ❤️</h2>
+        <p>You just made me the happiest person! 💫</p>
+        <div class="sub-message">✨ Sending you the date details now... ✨</div>
         <div
           style="
             margin-top: 30px;
@@ -796,32 +795,33 @@
             animation: emojiPulse 1s infinite alternate;
           "
         >
-          💕 🌹 ☕ 💖
+          💕 🌹 💖
         </div>
       </div>
     </div>
 
     <!-- Main card -->
     <div class="card">
+      <!-- Profile section -->
       <div class="profile-section">
-        <div class="profile-image" id="profileImage">☕</div>
+        <div class="profile-image" id="profileImage">💕</div>
       </div>
 
-      <h1>✨ Dear Ratri ✨</h1>
+      <h1>✨ Dear Ishu ✨</h1>
       <div class="sub" id="questionText">
         <span id="typedText"></span>
         <span class="typing-cursor"></span>
       </div>
 
       <div class="button-group">
-        <button class="btn btn-yes" id="yesBtn">☕ Yes</button>
+        <button class="btn btn-yes" id="yesBtn">💖 Yes</button>
         <button class="btn btn-no" id="noBtn">🙈 No</button>
       </div>
 
-      <!-- Picker -->
+      <!-- Picker wrapper -->
       <div class="picker-wrapper" id="pickerWrapper">
         <div class="picker-row">
-          <label for="datePicker">📅 Pick a day</label>
+          <label for="datePicker">📅 Choose a day</label>
           <input
             type="date"
             id="datePicker"
@@ -842,39 +842,43 @@
             <option value="8:30 PM">8:30 PM</option>
           </select>
         </div>
-        <button class="btn-submit" id="submitBtn">☕ Let's go!</button>
+        <button class="btn-submit" id="submitBtn">💌 Let's go!</button>
 
         <div class="thankyou-message" id="thankyouMsg">
-          🌹 Thank you, Ratri! I can't wait to see you! ☕
+          🌹 Thank you, Ishu! I can't wait to see you! 💫
         </div>
 
         <div class="countdown-timer" id="countdownTimer">
-          <div style="font-size: 0.9rem; color: #f0dcc8; margin-bottom: 10px">
-            ⏳ Time until coffee:
+          <div style="font-size: 0.9rem; color: #f0cee8; margin-bottom: 10px">
+            ⏳ Time until our date:
           </div>
           <div class="time-display">
             <div class="time-unit">
-              <span class="number" id="daysCount">00</span><span>Days</span>
+              <span class="number" id="daysCount">00</span>
+              <span>Days</span>
             </div>
             <div class="time-unit">
-              <span class="number" id="hoursCount">00</span><span>Hours</span>
+              <span class="number" id="hoursCount">00</span>
+              <span>Hours</span>
             </div>
             <div class="time-unit">
-              <span class="number" id="minutesCount">00</span><span>Mins</span>
+              <span class="number" id="minutesCount">00</span>
+              <span>Mins</span>
             </div>
             <div class="time-unit">
-              <span class="number" id="secondsCount">00</span><span>Secs</span>
+              <span class="number" id="secondsCount">00</span>
+              <span>Secs</span>
             </div>
           </div>
         </div>
 
-        <div class="heart-decoration">☕ ✨ 💕 ✨ ☕</div>
+        <div class="heart-decoration">❤️ ✨ 💕 ✨ ❤️</div>
       </div>
     </div>
 
     <script>
       (function () {
-        // --- DOM refs ---
+        // --- DOM Elements ---
         const yesBtn = document.getElementById("yesBtn");
         const noBtn = document.getElementById("noBtn");
         const pickerWrapper = document.getElementById("pickerWrapper");
@@ -888,8 +892,8 @@
         const confettiContainer = document.getElementById("confettiContainer");
         const thankyouOverlay = document.getElementById("thankyouOverlay");
 
-        // --- Typing ---
-        const question = "Would you like to grab a coffee with me?";
+        // --- Typing Animation ---
+        const question = "Do you want to go on a date with me?";
         let charIndex = 0;
 
         function typeWriter() {
@@ -901,67 +905,75 @@
         }
         typeWriter();
 
-        // --- Floating particles (coffee + hearts) ---
-        function createFloating() {
+        // --- Floating Hearts ---
+        function createFloatingHearts() {
           const container = document.getElementById("heartsContainer");
-          const emojis = ["☕", "❤️", "💕", "✨", "🌹", "🌸", "💖", "☕", "💗"];
+          const emojis = ["❤️", "💕", "💖", "✨", "🌟", "💗", "🌹", "🌸", "💝"];
           for (let i = 0; i < 25; i++) {
-            const el = document.createElement("div");
-            el.className = "heart-particle";
-            el.textContent = emojis[Math.floor(Math.random() * emojis.length)];
-            el.style.left = Math.random() * 100 + "%";
-            el.style.animationDuration = 10 + Math.random() * 15 + "s";
-            el.style.animationDelay = Math.random() * 15 + "s";
-            el.style.fontSize = 16 + Math.random() * 30 + "px";
-            el.style.opacity = 0.2 + Math.random() * 0.3;
-            container.appendChild(el);
+            const heart = document.createElement("div");
+            heart.className = "heart-particle";
+            heart.textContent =
+              emojis[Math.floor(Math.random() * emojis.length)];
+            heart.style.left = Math.random() * 100 + "%";
+            heart.style.animationDuration = 10 + Math.random() * 15 + "s";
+            heart.style.animationDelay = Math.random() * 15 + "s";
+            heart.style.fontSize = 16 + Math.random() * 30 + "px";
+            heart.style.opacity = 0.2 + Math.random() * 0.3;
+            container.appendChild(heart);
           }
         }
-        createFloating();
+        createFloatingHearts();
 
-        // --- Confetti ---
+        // --- Confetti System ---
         function createConfetti() {
           const colors = [
-            "#d4a373",
-            "#f5cba0",
-            "#e8c4a0",
-            "#8c6a4f",
-            "#f0d5b8",
-            "#a67c5a",
-            "#6d4f3a",
+            "#ff6b6b",
+            "#ffd93d",
+            "#6bcb77",
+            "#4d96ff",
+            "#ff6bcb",
+            "#ff9a76",
+            "#a66cff",
+            "#ff6b8a",
           ];
-          const shapes = ["■", "●", "▲", "★", "♦", "❤", "☕"];
+          const shapes = ["■", "●", "▲", "★", "♦", "❤"];
+
           for (let i = 0; i < 100; i++) {
-            const c = document.createElement("div");
-            c.className = "confetti-piece";
-            c.textContent = shapes[Math.floor(Math.random() * shapes.length)];
-            c.style.left = Math.random() * 100 + "%";
-            c.style.color = colors[Math.floor(Math.random() * colors.length)];
-            c.style.fontSize = 10 + Math.random() * 18 + "px";
-            c.style.animationDuration = 2 + Math.random() * 3 + "s";
-            c.style.animationDelay = Math.random() * 1.5 + "s";
-            c.style.transform = `rotate(${Math.random() * 360}deg)`;
-            confettiContainer.appendChild(c);
+            const confetti = document.createElement("div");
+            confetti.className = "confetti-piece";
+            confetti.textContent =
+              shapes[Math.floor(Math.random() * shapes.length)];
+            confetti.style.left = Math.random() * 100 + "%";
+            confetti.style.color =
+              colors[Math.floor(Math.random() * colors.length)];
+            confetti.style.fontSize = 10 + Math.random() * 18 + "px";
+            confetti.style.animationDuration = 2 + Math.random() * 3 + "s";
+            confetti.style.animationDelay = Math.random() * 1.5 + "s";
+            confetti.style.transform = `rotate(${Math.random() * 360}deg)`;
+            confettiContainer.appendChild(confetti);
           }
+
+          // Remove confetti after animation
           setTimeout(() => {
             confettiContainer.innerHTML = "";
           }, 5000);
         }
 
-        // --- Sparkle ---
+        // --- Sparkle Effect ---
         function createSparkle(x, y) {
-          const s = document.createElement("div");
-          s.className = "sparkle";
-          s.style.left = x + "px";
-          s.style.top = y + "px";
-          s.style.width = 20 + Math.random() * 40 + "px";
-          s.style.height = s.style.width;
-          document.body.appendChild(s);
-          setTimeout(() => s.remove(), 1000);
+          const sparkle = document.createElement("div");
+          sparkle.className = "sparkle";
+          sparkle.style.left = x + "px";
+          sparkle.style.top = y + "px";
+          sparkle.style.width = 20 + Math.random() * 40 + "px";
+          sparkle.style.height = sparkle.style.width;
+          document.body.appendChild(sparkle);
+          setTimeout(() => sparkle.remove(), 1000);
         }
 
-        // --- Yes ---
+        // --- Yes Button ---
         yesBtn.addEventListener("click", function (e) {
+          // Create sparkles at click position
           for (let i = 0; i < 10; i++) {
             setTimeout(() => {
               createSparkle(
@@ -970,47 +982,61 @@
               );
             }, i * 50);
           }
+
           pickerWrapper.classList.add("visible");
           thankyouMsg.classList.remove("visible");
           countdownTimer.classList.remove("visible");
+
+          // Scroll to picker
           setTimeout(() => {
             pickerWrapper.scrollIntoView({
               behavior: "smooth",
               block: "center",
             });
           }, 300);
-          profileImage.textContent = "😊";
+
+          // Change profile image
+          profileImage.textContent = "😍";
           setTimeout(() => {
-            profileImage.textContent = "☕";
+            profileImage.textContent = "💕";
           }, 2000);
         });
 
-        // --- No: dancing + unclickable ---
+        // --- No Button: Dancing + unclickable ---
         noBtn.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
           noBtn.style.animation = "none";
           noBtn.offsetHeight;
           noBtn.style.animation = "floatNo 0.3s infinite alternate ease-in-out";
+
+          // Shake the card
           const card = document.querySelector(".card");
           card.style.transform = "rotate(1deg) scale(0.98)";
           setTimeout(() => {
             card.style.transform = "";
           }, 300);
-          const msgs = [
+
+          // Playful feedback
+          const messages = [
             "😘 Nice try!",
-            "☕ Say yes!",
-            "✨ You know you want to!",
-            "❤️ Coffee with me?",
+            "💕 You can't say no!",
+            "✨ Say yes!",
+            "❤️ I know you want to!",
           ];
-          noBtn.textContent = msgs[Math.floor(Math.random() * msgs.length)];
+          noBtn.textContent =
+            messages[Math.floor(Math.random() * messages.length)];
           setTimeout(() => {
             noBtn.textContent = "🙈 No";
           }, 1500);
+
           return false;
         });
+
         noBtn.addEventListener("mousedown", (e) => e.preventDefault());
         noBtn.addEventListener("touchstart", (e) => e.preventDefault());
+
+        // Prevent any click on no button
         document.addEventListener(
           "click",
           function (e) {
@@ -1023,25 +1049,31 @@
           true,
         );
 
-        // --- Default date: tomorrow ---
+        // --- Date Picker: Set default to tomorrow ---
         const tomorrow = new Date();
         tomorrow.setDate(tomorrow.getDate() + 1);
-        const y = tomorrow.getFullYear();
-        const m = String(tomorrow.getMonth() + 1).padStart(2, "0");
-        const d = String(tomorrow.getDate()).padStart(2, "0");
-        datePicker.value = `${y}-${m}-${d}`;
+        const year = tomorrow.getFullYear();
+        const month = String(tomorrow.getMonth() + 1).padStart(2, "0");
+        const day = String(tomorrow.getDate()).padStart(2, "0");
+        datePicker.value = `${year}-${month}-${day}`;
 
-        // --- Submit ---
+        // --- Submit Button ---
         submitBtn.addEventListener("click", function () {
           const dateVal = datePicker.value;
           const timeVal = timeSelect.value;
+
           if (!dateVal) {
             alert("Please pick a date, lovely ✨");
             return;
           }
 
+          // Show big thank you overlay
           thankyouOverlay.classList.add("visible");
+
+          // Create massive confetti celebration
           createConfetti();
+
+          // Create sparkles everywhere
           for (let i = 0; i < 30; i++) {
             setTimeout(() => {
               createSparkle(
@@ -1050,58 +1082,74 @@
               );
             }, i * 100);
           }
+
+          // Show countdown timer in background
           setTimeout(() => {
             countdownTimer.classList.add("visible");
           }, 500);
+
+          // Change profile image
           profileImage.textContent = "🥰";
           setTimeout(() => {
-            profileImage.textContent = "☕";
+            profileImage.textContent = "💕";
           }, 3000);
 
-          // --- After 3s: email ---
+          // --- AFTER 3 SECONDS: Open email ---
           setTimeout(() => {
+            // Hide the overlay with a fade
             thankyouOverlay.style.animation = "overlayFade 0.3s reverse";
             setTimeout(() => {
               thankyouOverlay.classList.remove("visible");
               thankyouOverlay.style.animation = "";
             }, 300);
+
+            // Show small thank you message in card
             thankyouMsg.classList.add("visible");
 
-            const subject = encodeURIComponent("☕ Coffee with Ratri ✨");
+            // Open email
+            const subject = encodeURIComponent("💖 Date with Ishu ✨");
             const body = encodeURIComponent(
-              `Dear Ratri,\n\n` +
-                `You said YES! ☕🌸\n` +
+              `Dear Ishu,\n\n` +
+                `You said YES! 🌸\n` +
                 `📅 Date: ${dateVal}\n` +
                 `⏰ Time: ${timeVal}\n\n` +
-                `I'm so excited to have coffee with you! 💫\n` +
-                `Can't wait for our special time together! 🌹\n\n` +
-                `With love ❤️`,
+                `I'm so excited to see you! 💫\n` +
+                `Can't wait for our special day! 🌹\n\n` +
+                `With all my love ❤️`,
             );
-            window.open(
-              `mailto:rafidtawhid01@gmail.com?subject=${subject}&body=${body}`,
-              "_blank",
-            );
-            const fallback = `Coffee Date: ${dateVal} at ${timeVal}`;
-            navigator.clipboard?.writeText(fallback).catch(() => {});
 
+            const mailtoLink = `mailto:rafidtawhid01@gmail.com?subject=${subject}&body=${body}`;
+            window.open(mailtoLink, "_blank");
+
+            // Also copy to clipboard
+            const fallbackText = `Date: ${dateVal}\nTime: ${timeVal}\n(Email sent to rafidtawhid01@gmail.com)`;
+            navigator.clipboard?.writeText(fallbackText).catch(() => {});
+
+            // Disable submit button temporarily
             submitBtn.disabled = true;
             submitBtn.textContent = "✅ Done!";
             setTimeout(() => {
               submitBtn.disabled = false;
-              submitBtn.textContent = "☕ Let's go!";
+              submitBtn.textContent = "💌 Let's go!";
             }, 3000);
-          }, 3000);
+          }, 3000); // 3 second delay
         });
 
-        // --- Countdown ---
+        // --- Countdown Timer ---
         let countdownInterval;
 
         function startCountdown(date, time) {
+          // Clear existing interval
           if (countdownInterval) clearInterval(countdownInterval);
-          const target = new Date(`${date} ${time}`);
+
+          const dateTimeStr = `${date} ${time}`;
+          const targetDate = new Date(dateTimeStr);
+
           countdownInterval = setInterval(() => {
-            const dist = target.getTime() - new Date().getTime();
-            if (dist < 0) {
+            const now = new Date().getTime();
+            const distance = targetDate.getTime() - now;
+
+            if (distance < 0) {
               clearInterval(countdownInterval);
               document.getElementById("daysCount").textContent = "🎉";
               document.getElementById("hoursCount").textContent = "🎉";
@@ -1109,12 +1157,16 @@
               document.getElementById("secondsCount").textContent = "🎉";
               return;
             }
-            const days = Math.floor(dist / (1000 * 60 * 60 * 24));
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
             const hours = Math.floor(
-              (dist % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
             );
-            const minutes = Math.floor((dist % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((dist % (1000 * 60)) / 1000);
+            const minutes = Math.floor(
+              (distance % (1000 * 60 * 60)) / (1000 * 60),
+            );
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
             document.getElementById("daysCount").textContent = String(
               days,
             ).padStart(2, "0");
@@ -1130,18 +1182,25 @@
           }, 1000);
         }
 
-        // --- Mouse sparkle ---
+        // --- Mouse move sparkle effect (subtle) ---
         document.addEventListener("mousemove", function (e) {
-          if (Math.random() < 0.02) createSparkle(e.clientX, e.clientY);
+          if (Math.random() < 0.02) {
+            // Only 2% chance per move
+            createSparkle(e.clientX, e.clientY);
+          }
         });
 
-        // --- Keyboard: Y / N ---
+        // --- Keyboard shortcut: Press 'Y' for Yes ---
         document.addEventListener("keydown", function (e) {
-          if (e.key === "y" || e.key === "Y") yesBtn.click();
-          if (e.key === "n" || e.key === "N") noBtn.click();
+          if (e.key === "y" || e.key === "Y") {
+            yesBtn.click();
+          }
+          if (e.key === "n" || e.key === "N") {
+            noBtn.click();
+          }
         });
 
-        // --- Profile pulse ---
+        // --- Initial animation: pulse profile image ---
         setInterval(() => {
           profileImage.style.transform = "scale(1.1)";
           setTimeout(() => {
@@ -1149,7 +1208,7 @@
           }, 200);
         }, 4000);
 
-        console.log("☕ Made with love for Ratri ☕");
+        console.log("💕 Made with love for Ishu 💕");
       })();
     </script>
   </body>
